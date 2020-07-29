@@ -5,8 +5,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 p {
-  color: #1b1c25;
+  color: #000000;
   line-height: 2;
+font-size: 1.1rem;
+
 }
 
 hr {
@@ -17,24 +19,26 @@ hr {
 }
 
 h1 {
-  font-size: 5.625em;
+  font-size: 5.625rem;
   /** 16px = 100% = 1em **/
   margin: 50px auto -20px auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #160350;
   line-height: 2
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-family: 'Montserrat', sans-serif;
-  color: #66BFBF;
-  font-weight: normal;
+  color: #d6c6d2;
+  font-weight: initial;
+  margin: auto;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #02063a;
+  font-size: 1.6rem;
 }
 
 .top-container {
@@ -44,50 +48,51 @@ h3 {
 }
 
 .middle-container {
-  background-color: #111d5e;
+  background-color: #006a71;
 
 }
 
 .bottom-container {
-  background-color: #6a097d;
+  background-color: #006a71;
   padding: 50px 0 20px;
 
 }
 .profile {
-  background-color: #eeeeee;
-  padding: 10px;
+  background-color: #006a71;
+  padding: 100px 0 70px 0;
   margin: auto;
 }
+.me {
+  padding: 60px 0 35px 0;
+}
+#hello {
+  color: #d1e8d2;
+}
 .skills {
-  background-color: #ffc1fa;
-  padding: 10px;
+  background-color: #006a71;
+  padding: 100px 0 40px;
 
 }
 .contact-me{
-  background-color: #e3dfc8;
-  padding: 1px;
+  background-color: #006a71;
+  padding: 100px 0 40px;
 }
 a {
-  color: #f6d743;
+  color: #eaf6f6;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 
 }
 a:hover{
-  color: #eaf6f6;
+  color: #2a6565;
 }
 
 .nis {
   color: #eaf6f6;
   font-size: 1rem;
   padding: 30px 0;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 30px;
-  bottom: 230px;
 }
 
 .top-cloud {
@@ -97,6 +102,16 @@ a:hover{
   bottom: 100px;
 
 }
+.mountain {
+
+
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 30px;
+  bottom: 150px;
+}
 
 .skill-row {
   width: 50%;
@@ -104,9 +119,10 @@ a:hover{
  margin-top: 100px;
  margin-bottom: 100px;
  text-align: left;
- line-height: 2;
+
 
 }
+
 
 .comp {
   width: 25%;
@@ -121,10 +137,12 @@ a:hover{
 }
 
 .ab {
-  width: 41%;
+  width: 50%;
   margin: 40px auto 60px;
+  font-size: 1.1rem;
 
 }
+
 .btn {
   background-color: #1b6ca8; /* Green */
   border: none;
